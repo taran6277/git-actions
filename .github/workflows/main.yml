@@ -28,5 +28,5 @@ jobs:
       - uses: docker/build-push-action@v4
         with:
           context: .
-          tags: ${{ secrets.DOCKER_USERNAME }}/git-actions:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/git-actions:latest
 
