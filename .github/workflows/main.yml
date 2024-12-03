@@ -28,5 +28,5 @@ jobs:
       - uses: docker/build-push-action@v4
         with:
           context: .
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/git-actions:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/cpsy-350-ci-base:latest
 
